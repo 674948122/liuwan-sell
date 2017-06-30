@@ -1,0 +1,292 @@
+.nava{
+	height: 53px;
+	width: 1001px;
+	margin: 0 auto;
+	line-height: 53px;
+}
+.nava a{
+	text-decoration: none;
+	color: #3c3c3c;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+/*模块j13*/
+#box{
+	width: 999px;
+	height: 94px;
+	border: 1px solid #3c3c3c;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+#box .left{
+	width: 774px;
+	height: 94px;
+	float: left;
+}
+#box .up,.down{
+	width: 774px;
+	height: 47px;
+	position: relative;
+}
+#box .quan{
+	width: 14px;
+	height: 14px;
+	background: url(../image/quan.png);
+	position: absolute;
+	top: 16px;
+	left: 19px;
+}
+#box .dian{
+	width: 6px;
+	height: 6px;
+	background: url(../image/dian.png);
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	display: none;
+}
+#box .quan:hover .dian{
+	display: block;
+}
+#box .up_1{
+	position: absolute;
+	top: 15px;
+	left: 37px;
+}
+#box .up_2{
+	position: absolute;
+	top: 15px;
+	left: 90px;
+}
+#box .up_3{
+	position: absolute;
+	top: 8px;
+	left: 175px;
+	width: 137px;
+	height: 28px;
+	border: 1px solid #3c3c3c;
+}
+#box .up_3_1{
+	position: absolute;
+	top: 7px;
+	left: 15px;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+#box .sanjiao{
+	width: 11px;
+	height: 8px;
+	background: url(../image/sanjiaop.png);
+	position: absolute;
+	top: 10px;
+	right: 11px;
+}
+#box .up_4{
+	position: absolute;
+	top: 15px;
+	left: 334px;
+}
+#box .up_5{
+	position: absolute;
+	top: 8px;
+	left: 417px;
+	width: 211px;
+	height: 28px;
+	border: 1px solid #3c3c3c;
+}
+#box .rili{
+	background: url(../image/rili.jpg);
+	width: 39px;
+	height: 28px;
+	float: left;
+}
+#box .up_5_1{
+	position: absolute;
+	top: 7px;
+	left: 58px;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+#box .up_6{
+	position: absolute;
+	top: 8px;
+	left: 650px;
+	border: 1px solid #3c3c3c;
+	width: 103px;
+	height: 28px;
+}
+#box .up_6_1{
+	position: absolute;
+	top: 7px;
+	left: 11px;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+#box .right{
+	width: 205px;
+	height: 36px;
+	float: left;
+	padding: 29px 20px 29px 0;
+}
+#box .dingpiao{
+	background: url(../image/dingpiao.png);
+	width: 205px;
+	height: 36px;
+}
+/*结束*/
+.caption{
+	width: 1000px;
+	height: 38px;
+	margin: 0 auto;
+	background: #ffa000;
+	color: #fff;
+	text-indent: 20px;
+	line-height: 38px;
+	margin-bottom: 20px;
+}
+/*模块j14*/
+#con{
+	width: 1002px;
+	height: 364px;
+	margin: 0 auto;
+}
+
+#con #left{
+	width: 700px;
+	height: 333px;
+	border: 1px solid #3c3c3c;
+	float: left;
+}
+#con #left .head{
+	width: 700px;
+	height: 58px;
+	position: relative;
+}
+#con #left .head_1{
+	width: 97px;
+	height: 28px;
+	border: 1px solid #3c3c3c;
+	position: absolute;
+	top: 8px;
+	left: 19px;
+}
+#con #left .sanjiao{
+	width: 11px;
+	height: 8px;
+	background: url(../image/sanjiaop.png);
+	position: absolute;
+	top: 10px;
+	right: 11px;
+}
+#con #left .dizhi{
+	position: absolute;
+	top: 7px;
+	left: 14px;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+#con #left .huan{
+	width: 71px;
+	height: 30px;
+	background: url(../image/huan.png);
+	position: absolute;
+	top: 8px;
+	left: 128px;
+}
+#con #left .head_2{
+	width: 97px;
+	height: 28px;
+	border: 1px solid #3c3c3c;
+	position: absolute;
+	top: 8px;
+	left: 209px;
+}
+#con #left .cap{
+	width: 700px;
+	height: 30px;
+	background: #5ab4f5;
+	position: relative;
+}
+#con #left .nian,.yue{
+	color: #fff;
+	position: absolute;
+	top: 8px;
+}
+#con #left .nian{
+	left: 270px;
+}
+#con #left .yue{
+	right: 294px;
+}
+#con #left .sanjiao_l,.sanjiao_r{
+	width: 8px;
+	height: 10px;
+}
+#con #left .sanjiao_l{
+	background: url(../image/sanjiao_l.png);
+	position: absolute;
+	top: 10px;
+	left: 350px;
+}
+#con #left .sanjiao_r{
+	background: url(../image/sanjiao_r.png);
+	position: absolute;
+	top: 10px;
+	right: 272px;
+}
+#con #left .week{
+	width: 659px;
+	height: 25px;
+	margin:0 auto;
+	color: #1f71b8;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+}
+#con #left .week td{
+	width: 92px;
+}
+#con #left .rili{
+	width: 659px;
+	height: 200px;
+	margin: 0 auto;
+	border: 1px solid #3c3c3c;
+	border-collapse: collapse;
+}
+#con #left .rili td{
+	border: 1px solid #3c3c3c;
+	width: 94px;
+	height: 32px;
+	text-align: right;
+	color: #3f3f3f;
+	font-size: 12px;
+	padding:3px 6px 3px 0;
+	font-weight: 500;
+
+}
+#con #left .rili p{
+	font-size: 11px;
+	color: #787878;
+	margin-bottom: 8px;
+}
+/*模块j15*/
+#right{
+	width: 269px;
+	height: 336px;
+	float: right;
+}
+#right .guanggao{
+	width: 269px;
+	height: 50px;
+	background: url(../image/guanggao2.jpg); 
+	padding-top: 286px;
+}
+#right .touming{
+	background: url(../image/touming.png);
+	width: 269px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 22px;
+}
